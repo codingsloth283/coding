@@ -4,7 +4,7 @@ def Main():
     print("Hello World")
   if select == "2":
     exit(2)
-def Run():
+def Run(): 
   Main()
 
 Run()
