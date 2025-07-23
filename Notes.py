@@ -8,8 +8,7 @@ print(inputnote)
 
 with open("notes.txt", "a") as f:
     f.write("Title: "+title_input="\n")
-    f.write(inputnote+"\n"
-           )
+    f.write(inputnote+"\n")
 
 
 
