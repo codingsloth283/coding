@@ -6,7 +6,11 @@ title_input = input("input a title: ")
 print("Title: "+title_input)
 print(inputnote)
 
-with open("notes.txt", "w") as f:
-    f.write("Title: "+title_input\n)
-    f.write(inputnote\n)
+with open("notes.txt", "a") as f:
+    f.write("Title: "+title_input="\n")
+    f.write(inputnote+"\n"
+           )
+
+
+
 
